@@ -1,0 +1,22 @@
+.tripleform {
+  width: 100%;
+  height: 152px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 24px;
+}
+
+.tripleform .first_img {
+  width: 469.2px;
+  height: 152px;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tripleform .first_img img {
+  width: 100%;
+  height: 100%;
+}
