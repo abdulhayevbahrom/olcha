@@ -71,8 +71,8 @@ export default function Categories() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        {ItemData.map((item) => (
-          <SwiperSlide>
+        {ItemData.map((item, index) => (
+          <SwiperSlide key={index}>
             <Link to={"/"}>
               <img src={item.img} alt="" />
               <p>{item.title}</p>

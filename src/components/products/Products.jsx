@@ -38,17 +38,19 @@
 
 // export default Products;
 
-import React from "react";
+import React, { useState } from "react";
 import "./Products.css";
 import { FaRegHeart } from "react-icons/fa";
 import { IoStatsChart } from "react-icons/io5";
 import { LuShoppingCart } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import Avto_Jihozlar from "../../assets/AvtoJihozlar.jpg";
+import Popup from "../popup/Popup";
 
-function Products({ productsData }) {
+function Products({ productsData, extraImg }) {
+  const [popup, setPopup] = useState(false);
   return (
     <div className="products">
+      {popup && <Popup setPopup={setPopup} data={popup} />}
       {productsData.map((item, index) => (
         <div className="productItem" key={index}>
           {item.discount > 0 && <p className="discount">{item.discount} %</p>}
@@ -71,13 +73,17 @@ function Products({ productsData }) {
             <button className="shopping">
               <LuShoppingCart />
             </button>
-            <button className="tolov">Muddatli to'lov</button>
+            <button onClick={() => setPopup(item)} className="tolov">
+              Muddatli to'lov
+            </button>
           </div>
         </div>
       ))}
-      <div className="productImgForm">
-        <img src={Avto_Jihozlar} alt="" />
-      </div>
+      {extraImg && (
+        <div className="productImgForm">
+          <img src={extraImg} alt="" />
+        </div>
+      )}
     </div>
   );
 }

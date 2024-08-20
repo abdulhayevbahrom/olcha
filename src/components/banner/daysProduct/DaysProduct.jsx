@@ -47,8 +47,8 @@ function DaysProduct() {
           disableOnInteraction: false,
         }}
       >
-        {daysProducts.map((product) => (
-          <SwiperSlide>
+        {daysProducts.map((product, index) => (
+          <SwiperSlide key={index}>
             <div className="daysProItem">
               <img src={product.img} alt="" />
               <p>{product.title}</p>

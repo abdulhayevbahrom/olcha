@@ -33,8 +33,8 @@ const Carousel = () => {
           disableOnInteraction: false,
         }}
       >
-        {images.map((url) => (
-          <SwiperSlide>
+        {images.map((url, index) => (
+          <SwiperSlide key={index}>
             <img src={url} alt="" />
           </SwiperSlide>
         ))}
