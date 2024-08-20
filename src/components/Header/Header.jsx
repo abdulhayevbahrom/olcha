@@ -17,42 +17,44 @@ function Header() {
   });
 
   return (
-    <div className="header">
-      <HeaderTop />
-      <header>
-        <Link to={"/"}>
-          <img src={headerLogo} alt="header logo" className="headerLogo" />
-        </Link>
-        <button className="catalog">
-          <HiMiniBars3 /> Katalog
-        </button>
-        <div className="header_searchbar">
-          <input type="text" placeholder={text} />
-          <button>
-            <FiSearch />
+    <>
+      <div className="header">
+        <HeaderTop />
+        <header>
+          <Link to={"/"}>
+            <img src={headerLogo} alt="header logo" className="headerLogo" />
+          </Link>
+          <button className="catalog">
+            <HiMiniBars3 /> Katalog
           </button>
-        </div>
-        <div className="header_actions">
-          <Link to={"/compare"}>
-            <IoStatsChart />
-            <span>Taqqoslash</span>
-          </Link>
-          <Link to={"/heart"}>
-            <FaRegHeart />
-            <span>Sevimlilar</span>
-          </Link>
-          <Link to={"/cart"}>
-            <p>0</p>
-            <LuShoppingCart />
-            <span>Savatcha</span>
-          </Link>
-          <Link to={"/login"}>
-            <LuUser2 />
-            <span>Kirish</span>
-          </Link>
-        </div>
-      </header>
-    </div>
+          <div className="header_searchbar">
+            <input type="text" placeholder={text} />
+            <button>
+              <FiSearch />
+            </button>
+          </div>
+          <div className="header_actions">
+            <Link to={"/compare"}>
+              <IoStatsChart />
+              <span>Taqqoslash</span>
+            </Link>
+            <Link to={"/heart"}>
+              <FaRegHeart />
+              <span>Sevimlilar</span>
+            </Link>
+            <Link to={"/cart"}>
+              <p>0</p>
+              <LuShoppingCart />
+              <span>Savatcha</span>
+            </Link>
+            <Link to={"/login"}>
+              <LuUser2 />
+              <span>Kirish</span>
+            </Link>
+          </div>
+        </header>
+      </div>
+    </>
   );
 }
 
