@@ -55,6 +55,7 @@ function SinglePage() {
             <img src={i} alt="" />
           ))}
         </div>
+        <div className="product-info"></div>
       </div>
     </div>
   );
