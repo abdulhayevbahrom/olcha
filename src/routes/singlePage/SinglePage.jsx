@@ -14,11 +14,9 @@ import "swiper/css/thumbs";
 function SinglePage() {
   const params = useParams();
   const item = productsData?.find((el) => el.id == params.id);
-  const [imgs, setImgs] = useState([]);
+  // const [imgs, setImgs] = useState(item.about_product[0.0]);
 
   console.log(item);
-
-  setImgs(item.about_product[0.0]);
 
   return (
     <div className="singlePage">

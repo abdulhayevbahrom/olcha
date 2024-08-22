@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HeaderTop from "./HeaderTop";
 import "./Header.css";
 import headerLogo from "../../assets/headerLogo.png";
@@ -11,16 +11,19 @@ import { HiMiniBars3 } from "react-icons/hi2";
 import { useTypewriter } from "react-simple-typewriter";
 
 function Header() {
+  const [hdr_state, setHdrState] = useState(false);
   const [text] = useTypewriter({
     words: ["Muzlatgich", "Televizor", "Telefon", "Kompyuter", "Sichqoncha"],
     loop: 0,
   });
 
+  useEffect(() => setHdrState(window.pageYOffset >= 56), [window.pageYOffset]);
+
   return (
     <>
       <div className="header">
         <HeaderTop />
-        <header>
+        <header style={{ position: hdr_state ? "fixed" : "static" }}>
           <Link to={"/"}>
             <img src={headerLogo} alt="header logo" className="headerLogo" />
           </Link>
