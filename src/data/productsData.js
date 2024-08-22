@@ -2,7 +2,7 @@ export const productsData = [
   {
     img: "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-07-29/uel0TmctQBCuuPqyfNuO3r9TR3kiIrKFxmOtQv1YOeR2wtgDHo1cOYIQGeYc.jpg",
     title: "O‘yin konsoli Sony PlayStation 5 Slim CD ,1TB (from U.A.E)",
-    price: "6 699 000",
+    price: 6699000,
     description: "playStation",
     guarantee: "1 oy",
     allImages: [
@@ -24,7 +24,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "1 yil",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
@@ -34,7 +33,6 @@ export const productsData = [
     Rangi: "Emerald Green",
     Rangi: "Shimmering silver",
     Rangi: "Deep black",
-
   },
   {
     img: "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-07-24/GXnlCe9OvklS1p0BdVMR0qp9NhQhJQz3ySaRmEnz7XbK8BjnEPLZhKxR2gzw.jpg",
@@ -56,7 +54,6 @@ export const productsData = [
     Rangi: "Blue titanium",
     Rangi: "White titanium",
     Rangi: "Black titanium",
-
   },
   {
     img: "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-08-22/OON4XSfCA3QAsKhANDqLeLpiU9Dc3PV68PuwotNnbdKPs92FxB8SmPSZQBl1.jpg",
@@ -65,8 +62,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "",
     allImages: [
-
-
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-08-22/OON4XSfCA3QAsKhANDqLeLpiU9Dc3PV68PuwotNnbdKPs92FxB8SmPSZQBl1.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-08-22/QLTNBpiOq87B6otRz0i5Kotc1Uwvbfik1xAODQHriFHzo69WpRwsMXiTnQKq.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-08-22/ReAIwDxguZGf1VbNemIfLKpR00SGLk3FN7sQOaLqoiXhlKyR8MMCQpNZNctz.jpg",
@@ -85,7 +80,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2024-01-10/F1sh1vS8KjK60NaCQBhQvtidDGsSd3kdKAlqcseiPTqwrUeHnUBr4f3GOdvW.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2024-01-10/gD8Cjn70Qz6cCdcL6jRbAqDSTHmMdO6IRq99BZIk1P9YWt13ZXse9mgyGgOD.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2024-01-10/85Kfjjs5QPmx9dHJvcZNWWAhHiIGzvRCp7fVEVGojZi6BPeLdKq4dZMa17EZ.jpg",
@@ -123,7 +117,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-04-29/GEWddJsFk2GVAwMGi2ORZY8FTJI7AxO3PLaa840p6bsn0gFrNvtuJiDl3xIE.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-04-29/cZ04lIK8w5e85OCM5vIGJpA2rnN2Ek3QUrjaTiPPjkC8r16LsYPJuhbkxvYh.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-04-29/i6mnMkVLgWZeah14UXTqUOztD669QXL02xagou5bfkCdRBJ8WPUKcfxNBuhZ.jpg",
@@ -144,7 +137,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-12-05/7ZOh634HCPdfQyiGhM2kwty8QJRGz0OYWx5edBuE1iI5hNQLJc4fVpCQkkoV.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-12-05/UsMwgoU4ihOahUJKSyjuscLEhc78clcDB1hjZeKpgBsA0VrCfr9QjAm0zF0R.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-12-05/nwJ4ohHJ0runnCYb94amKuGfsXlrpzCyQ7wSkCMTkA9mDKX1VYstzFyUgmiE.jpg",
@@ -203,7 +195,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "1 oy",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/Eo2vtIMKdEasUGKvdpSt9Ib9t0dTtQZ2OanuSbTOVODuYUqRFiy1nZY9cRtw.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/xy21733yvIC5sIi1CvIUY9OyV5G5ZWPXwQ2JwAX6okh1TsAXaAqDhI7bK2of.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/FxSgU1vCAnjRvlRvwoZZycNZboyvLFRI84Dm1HbvzUBQ0DcgPCLd6rRr4uHU.jpg",
@@ -223,7 +214,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "1 oy",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/Eo2vtIMKdEasUGKvdpSt9Ib9t0dTtQZ2OanuSbTOVODuYUqRFiy1nZY9cRtw.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/xy21733yvIC5sIi1CvIUY9OyV5G5ZWPXwQ2JwAX6okh1TsAXaAqDhI7bK2of.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/FxSgU1vCAnjRvlRvwoZZycNZboyvLFRI84Dm1HbvzUBQ0DcgPCLd6rRr4uHU.jpg",
@@ -243,7 +233,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "1 oy",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/Eo2vtIMKdEasUGKvdpSt9Ib9t0dTtQZ2OanuSbTOVODuYUqRFiy1nZY9cRtw.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/xy21733yvIC5sIi1CvIUY9OyV5G5ZWPXwQ2JwAX6okh1TsAXaAqDhI7bK2of.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/FxSgU1vCAnjRvlRvwoZZycNZboyvLFRI84Dm1HbvzUBQ0DcgPCLd6rRr4uHU.jpg",
@@ -263,7 +252,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "1 oy",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/Eo2vtIMKdEasUGKvdpSt9Ib9t0dTtQZ2OanuSbTOVODuYUqRFiy1nZY9cRtw.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/xy21733yvIC5sIi1CvIUY9OyV5G5ZWPXwQ2JwAX6okh1TsAXaAqDhI7bK2of.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/FxSgU1vCAnjRvlRvwoZZycNZboyvLFRI84Dm1HbvzUBQ0DcgPCLd6rRr4uHU.jpg",
@@ -485,7 +473,6 @@ export const accessories = [
     Diskovod_DVD: "Bor",
     KomplektdaKontroller: "mavjud 1 dona",
   },
-
 ].map(
   (item, index) =>
     item && {
@@ -592,8 +579,6 @@ export const washingMachines = [
   //   Diskovod_DVD: "",
   //   KomplektdaKontroller: "",
   // },
-  
-
 ].map(
   (item, index) =>
     item && {
@@ -602,8 +587,6 @@ export const washingMachines = [
       discount: index % 2 ? 15 : 0,
     }
 );
-
-
 
 export const households = [
   {
@@ -757,8 +740,7 @@ export const households = [
     OperativHotira: "",
     Diskovod_DVD: "",
     KomplektdaKontroller: "",
-  }
-
+  },
 ].map(
   (item, index) =>
     item && {
