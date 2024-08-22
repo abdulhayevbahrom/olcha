@@ -1,0 +1,13 @@
+.twice{
+    width: 100%;
+    height: 247.76px;
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+}
+
+.twice img{
+    width: 707.99px;
+    height: 100%;border-radius: 15px;
+}

@@ -42,10 +42,12 @@ const Popup = ({ setPopup, data }) => {
               ))}
             </div>
             <span>Xotira:</span>
-            <button>8/256 gb</button>
-            <button>16/256 gb</button>
+            <div className="btn_container_popup">
+              <button>8/256 gb</button>
+              <button>16/256 gb</button>
+            </div>
 
-            <Link to={"/"}>Mahsulotga o'tish</Link>
+            <Link to={"/"} className="Maxsulot">Mahsulotga o'tish</Link>
           </div>
         </div>
       </div>
