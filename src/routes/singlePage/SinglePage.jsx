@@ -14,12 +14,7 @@ import "swiper/css/thumbs";
 function SinglePage() {
   const params = useParams();
   const item = productsData?.find((el) => el.id == params.id);
-  const [imgs, setImgs] = useState([]);
-
   console.log(item);
-
-  setImgs(item.about_product[0.0]);
-
   return (
     <div className="singlePage">
       <h2>{item.title}</h2>
@@ -56,12 +51,9 @@ function SinglePage() {
         </div>
         <div className="details_colors">
           <p>Rangi:</p>
-          <img
-            src={
-              "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/Eo2vtIMKdEasUGKvdpSt9Ib9t0dTtQZ2OanuSbTOVODuYUqRFiy1nZY9cRtw.jpg"
-            }
-            alt=""
-          />
+          {item.allImages.map((i) => (
+            <img src={i} alt="" />
+          ))}
         </div>
       </div>
     </div>
