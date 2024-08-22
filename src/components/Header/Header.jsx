@@ -1,20 +1,24 @@
-import React from "react";
+import React, {useState} from "react";
 import HeaderTop from "./HeaderTop";
 import "./Header.css";
 import headerLogo from "../../assets/headerLogo.png";
-import { FaRegHeart } from "react-icons/fa";
-import { FiSearch } from "react-icons/fi";
+import { FaBars, FaRegHeart, FaChevronRight } from "react-icons/fa";
+import { FiSearch, FiX } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { IoStatsChart } from "react-icons/io5";
 import { LuShoppingCart, LuUser2 } from "react-icons/lu";
-import { HiMiniBars3 } from "react-icons/hi2";
 import { useTypewriter } from "react-simple-typewriter";
+import { headerData } from "../../data/headerData"; 
+
+
 
 function Header() {
   const [text] = useTypewriter({
     words: ["Muzlatgich", "Televizor", "Telefon", "Kompyuter", "Sichqoncha"],
     loop: 0,
   });
+
+  const [catalog, setCatalog] = useState(false);
 
   return (
     <div className="header">
@@ -23,9 +27,10 @@ function Header() {
         <Link to={"/"}>
           <img src={headerLogo} alt="header logo" className="headerLogo" />
         </Link>
-        <button className="catalog">
-          <HiMiniBars3 /> Katalog
-        </button>
+        <div onClick={() => setCatalog(!catalog)} className="catalogBtn">
+          {catalog ? <FiX /> : <FaBars />}
+          Katalog
+        </div>
         <div className="header_searchbar">
           <input type="text" placeholder={text} />
           <button>
@@ -52,6 +57,37 @@ function Header() {
           </Link>
         </div>
       </header>
+
+      {catalog && (
+        <div className="catalog_wrapper">
+          <div className="catalog_sidebar">
+            {headerData.map((item, index) => (
+              <div key={index} className="catalog_sidebar_item">
+                <div className="catalog_sidebar_item_title">
+                  <img src={item.icon} alt="" /><span>{item.title}</span>
+                </div>
+                <FaChevronRight />
+
+                <div className="extraLinks">
+                  <h2>{item.title}</h2>
+                  <div className="extra_wrapper">
+                    {item.extra.map((link, index) => (
+                      <div key={index} className="extra_item">
+                        <h3>{link.caption}</h3>
+                        {link.extra_links.map((url, index) => (
+                          <Link key={index} to={url}>
+                            {url}
+                          </Link>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

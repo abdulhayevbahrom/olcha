@@ -15,6 +15,8 @@ import washing from "../../assets/washing.jpg";
 import Twice_Banner from "../../components/twice_Banner/Twice_Banner";
 import Popular from "../../components/popular/Popular";
 
+
+
 const Home = () => {
   console.log(households);
   
