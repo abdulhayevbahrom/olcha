@@ -5,6 +5,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaTelegramPlane } from "react-icons/fa";
+import headerLogo from "../../assets/headerLogo.png";
 
 function Footer() {
   return (
@@ -24,7 +25,7 @@ function Footer() {
         </div>
         <div className="bottom_footer">
             <div className="first">
-                <p>olcha</p>
+                <img src={headerLogo} alt="" />
                 <span>Qo'llab-quvvatlash raqami</span>
                 <span>+998 (71) 202 202 1</span>
                 <span><CiLocationOn /> Qozitarnov, Toshkent</span>
