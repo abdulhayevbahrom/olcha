@@ -1,0 +1,218 @@
+.footer {
+    width: 100%;
+    height: 120vh;
+    background-color: #F2F2F2;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .top_footer{
+    width: 100%;
+    height: 50vh;
+    border-bottom: 1px solid #999;
+    display: flex;
+}
+
+.footer .top_footer .left {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 250px;
+    gap: 20px;
+}
+
+.footer .top_footer .left h3{
+    font-size: 20px;
+}
+
+
+.footer .top_footer .left .dsf{
+    display: flex;
+    gap: 10px;
+}
+
+.footer .top_footer .left .dsf div {
+    width: 160px;
+    height: 60px;
+    background-color: #fff;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+.footer .top_footer .left  .third {
+    width: 165px;
+    height: 60px;
+    background-color: #fff;
+    padding: 3px 6px;
+    border-radius: 10px;
+}
+
+.footer .top_footer .left .dsf div img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer .top_footer .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .top_footer .right img{
+    width: 80%;
+    height: 80%;
+    background-position: left;
+    object-fit: contain;
+}
+
+
+.bottom_footer {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #999;
+}
+
+
+.bottom_footer .first {
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 12px;
+}
+
+.bottom_footer .first p{
+    font-size: 46px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.bottom_footer .second p{
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.bottom_footer .first span {
+    font-size: 22px;
+    font-weight: 400;
+font-family: sans-serif;
+}
+
+.bottom_footer .second span {
+    font-size: 18px;
+    font-weight: 400;
+font-family: sans-serif;
+}
+
+.bottom_footer .third span {
+    font-size: 18px;
+    font-weight: 400;
+font-family: sans-serif;
+/* margin-top: 40px; */
+}
+
+.bottom_footer .second {
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 12px;
+}
+
+.bottom_footer .third {
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 12px;
+    padding-top: 100px;
+}
+
+.bottom_footer .last {
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: flex-end;
+}
+
+.bottom_footer .last .last_contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.bottom_footer .last .last_contain .div{
+    width: 120px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom_footer .last .last_contain .div img{
+    width: 80%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+}
+
+
+.the_last {
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.the_last .title {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.the_last .title p{
+    font-family: sans-serif;
+    color: #999999;
+    font-size: 18px;
+}
+
+.the_last .svg_container {
+    display: flex;
+    gap: 25px;
+}
+
+.the_last .svg_container svg {
+    font-size: 25px;
+    color: #999999;
+}

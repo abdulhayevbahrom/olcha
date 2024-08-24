@@ -866,3 +866,64 @@ export const households = [
       discount: index % 2 ? 15 : 0,
     }
 );
+
+
+export const mobilePhones = [
+  {
+    img: "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-04-26/LKPUsONba0M64GPQeo9Up4S6FYtoVsMRYJjbuaKblpdu0PnqoR4PWZDRu8Cy.JPG",
+    title: "Xiaomi Redmi Note 13 6/128 GB Ocean Sunset",
+    price: 2278000,
+    description: "Smartfonlar",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-04-26/LKPUsONba0M64GPQeo9Up4S6FYtoVsMRYJjbuaKblpdu0PnqoR4PWZDRu8Cy.JPG",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
+  },
+  {
+    img: "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-04-26/vx0CqygM0WH2QieqyeRHheYT8UV57ySYqdrsEmi7rvYQnb9iLcRkfZFFyKrG.JPG",
+    title: "Xiaomi Redmi Note 13 6/128 GB Mint Green",
+    price: 2525000,
+    description: "Smartfonlar",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-04-26/vx0CqygM0WH2QieqyeRHheYT8UV57ySYqdrsEmi7rvYQnb9iLcRkfZFFyKrG.JPG",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
+  },
+  {
+    img: "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-04-26/bnCm9Oy3sXsMWq09oU4L3iSRwe8trTkgBgozjkNtYcIcfifJ69Ul9npuuCn2.JPG",
+    title: "Xiaomi Redmi Note 13 6/128 GB ",
+    price: 2545000,
+    description: "Smartfonlar",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-04-26/bnCm9Oy3sXsMWq09oU4L3iSRwe8trTkgBgozjkNtYcIcfifJ69Ul9npuuCn2.JPG",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
+  },
+]
