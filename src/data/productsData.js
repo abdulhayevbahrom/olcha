@@ -2,7 +2,7 @@ export const productsData = [
   {
     img: "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-07-29/uel0TmctQBCuuPqyfNuO3r9TR3kiIrKFxmOtQv1YOeR2wtgDHo1cOYIQGeYc.jpg",
     title: "O‘yin konsoli Sony PlayStation 5 Slim CD ,1TB (from U.A.E)",
-    price: "6 699 000",
+    price: "6699000",
     description: "playStation",
     guarantee: "1 oy",
     allImages: [
@@ -24,7 +24,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "1 yil",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
@@ -34,7 +33,6 @@ export const productsData = [
     Rangi: "Emerald Green",
     Rangi: "Shimmering silver",
     Rangi: "Deep black",
-
   },
   {
     img: "https://olcha.uz/image/700x700/products/cdn_1/supplier/stores/1/2024-07-24/GXnlCe9OvklS1p0BdVMR0qp9NhQhJQz3ySaRmEnz7XbK8BjnEPLZhKxR2gzw.jpg",
@@ -56,7 +54,6 @@ export const productsData = [
     Rangi: "Blue titanium",
     Rangi: "White titanium",
     Rangi: "Black titanium",
-
   },
   {
     img: "https://olcha.uz/image/700x700/products/supplier/stores/1/2023-08-22/OON4XSfCA3QAsKhANDqLeLpiU9Dc3PV68PuwotNnbdKPs92FxB8SmPSZQBl1.jpg",
@@ -65,8 +62,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "",
     allImages: [
-
-
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-08-22/OON4XSfCA3QAsKhANDqLeLpiU9Dc3PV68PuwotNnbdKPs92FxB8SmPSZQBl1.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-08-22/QLTNBpiOq87B6otRz0i5Kotc1Uwvbfik1xAODQHriFHzo69WpRwsMXiTnQKq.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-08-22/ReAIwDxguZGf1VbNemIfLKpR00SGLk3FN7sQOaLqoiXhlKyR8MMCQpNZNctz.jpg",
@@ -85,7 +80,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2024-01-10/F1sh1vS8KjK60NaCQBhQvtidDGsSd3kdKAlqcseiPTqwrUeHnUBr4f3GOdvW.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2024-01-10/gD8Cjn70Qz6cCdcL6jRbAqDSTHmMdO6IRq99BZIk1P9YWt13ZXse9mgyGgOD.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2024-01-10/85Kfjjs5QPmx9dHJvcZNWWAhHiIGzvRCp7fVEVGojZi6BPeLdKq4dZMa17EZ.jpg",
@@ -123,7 +117,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-04-29/GEWddJsFk2GVAwMGi2ORZY8FTJI7AxO3PLaa840p6bsn0gFrNvtuJiDl3xIE.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-04-29/cZ04lIK8w5e85OCM5vIGJpA2rnN2Ek3QUrjaTiPPjkC8r16LsYPJuhbkxvYh.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-04-29/i6mnMkVLgWZeah14UXTqUOztD669QXL02xagou5bfkCdRBJ8WPUKcfxNBuhZ.jpg",
@@ -144,7 +137,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-12-05/7ZOh634HCPdfQyiGhM2kwty8QJRGz0OYWx5edBuE1iI5hNQLJc4fVpCQkkoV.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-12-05/UsMwgoU4ihOahUJKSyjuscLEhc78clcDB1hjZeKpgBsA0VrCfr9QjAm0zF0R.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-12-05/nwJ4ohHJ0runnCYb94amKuGfsXlrpzCyQ7wSkCMTkA9mDKX1VYstzFyUgmiE.jpg",
@@ -203,7 +195,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "1 oy",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/Eo2vtIMKdEasUGKvdpSt9Ib9t0dTtQZ2OanuSbTOVODuYUqRFiy1nZY9cRtw.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/xy21733yvIC5sIi1CvIUY9OyV5G5ZWPXwQ2JwAX6okh1TsAXaAqDhI7bK2of.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/FxSgU1vCAnjRvlRvwoZZycNZboyvLFRI84Dm1HbvzUBQ0DcgPCLd6rRr4uHU.jpg",
@@ -223,7 +214,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "1 oy",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/Eo2vtIMKdEasUGKvdpSt9Ib9t0dTtQZ2OanuSbTOVODuYUqRFiy1nZY9cRtw.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/xy21733yvIC5sIi1CvIUY9OyV5G5ZWPXwQ2JwAX6okh1TsAXaAqDhI7bK2of.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/FxSgU1vCAnjRvlRvwoZZycNZboyvLFRI84Dm1HbvzUBQ0DcgPCLd6rRr4uHU.jpg",
@@ -243,7 +233,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "1 oy",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/Eo2vtIMKdEasUGKvdpSt9Ib9t0dTtQZ2OanuSbTOVODuYUqRFiy1nZY9cRtw.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/xy21733yvIC5sIi1CvIUY9OyV5G5ZWPXwQ2JwAX6okh1TsAXaAqDhI7bK2of.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/FxSgU1vCAnjRvlRvwoZZycNZboyvLFRI84Dm1HbvzUBQ0DcgPCLd6rRr4uHU.jpg",
@@ -263,7 +252,6 @@ export const productsData = [
     description: "telefon",
     guarantee: "1 oy",
     allImages: [
-
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/Eo2vtIMKdEasUGKvdpSt9Ib9t0dTtQZ2OanuSbTOVODuYUqRFiy1nZY9cRtw.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/xy21733yvIC5sIi1CvIUY9OyV5G5ZWPXwQ2JwAX6okh1TsAXaAqDhI7bK2of.jpg",
       "https://olcha.uz/image/70x70/products/cdn_1/supplier/stores/1/2024-03-19/FxSgU1vCAnjRvlRvwoZZycNZboyvLFRI84Dm1HbvzUBQ0DcgPCLd6rRr4uHU.jpg",
@@ -288,23 +276,23 @@ export const productsData = [
 
 export const accessories = [
   {
-    img: "https://olcha.uz/image/220x220/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
-    title: "qolda buglash mashinasi",
-    price: 350000,
-    description: "playStation",
+    img: "https://olcha.uz/image/220x220/products/cdm0m4bFeYZYGZXZMbG6kHmWpZLxJgIAOjiCQcroZXTpVycAj8F38sBcSBHV.jpg",
+    title: "Besprovodnie naushniki Earbuds M10",
+    price: 50050,
+    description: "AirPods",
     guarantee: "1 oy",
     allImages: [
-      "https://olcha.uz/image/220x220/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
+      "https://olcha.uz/image/220x220/products/cdm0m4bFeYZYGZXZMbG6kHmWpZLxJgIAOjiCQcroZXTpVycAj8F38sBcSBHV.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
     ],
     QollabQuvvatlash: "Mavjud",
-    QattiqDisk: "Mavjud, 1000 GB",
-    ProtsessorChastotasi: "3.50 GGts",
-    OperativHotira: "16384 Mb, GDDR6",
-    Diskovod_DVD: "Bor",
-    KomplektdaKontroller: "mavjud 1 dona",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
   },
   {
     img: "https://olcha.uz/image/220x220/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
@@ -325,14 +313,35 @@ export const accessories = [
     Diskovod_DVD: "Bor",
     KomplektdaKontroller: "mavjud 1 dona",
   },
+  // 3
   {
-    img: "https://olcha.uz/image/220x220/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
-    title: "qolda buglash mashinasi",
-    price: 350000,
+    img: "https://cdn.olcha.uz/image/220x220/products/woocomerce/sp-phone/2024-06-14/sI1UjXlKh6pERTUmgSCFZlrWB4iyT1eqd34MDDeyGrezwkoYbYK6HJNs98upSIpr.jpeg",
+    title: "Aqlli dinamik Yandex stantsiyasi yorug'lik (Yandex lite YNDX-",
+    price: 799000,
     description: "playStation",
     guarantee: "1 oy",
     allImages: [
-      "https://olcha.uz/image/220x220/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
+      "https://cdn.olcha.uz/image/220x220/products/woocomerce/sp-phone/2024-06-14/sI1UjXlKh6pERTUmgSCFZlrWB4iyT1eqd34MDDeyGrezwkoYbYK6HJNs98upSIpr.jpeg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "Mavjud, 1000 GB",
+    ProtsessorChastotasi: "3.50 GGts",
+    OperativHotira: "16384 Mb, GDDR6",
+    Diskovod_DVD: "Bor",
+    KomplektdaKontroller: "mavjud 2 dona",
+  },
+  // 4
+  {
+    img: "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-08-28/51vh2Y9Z73X6Q7S5BHBoUlD7JUpezLTtef9AffqHIgdVddp1Ky4YBkM4xjj7.jpg",
+    title: "Televizor Vesta V32LH40000 32",
+    price: 1425000,
+    description: "Televizor",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-08-28/51vh2Y9Z73X6Q7S5BHBoUlD7JUpezLTtef9AffqHIgdVddp1Ky4YBkM4xjj7.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
@@ -344,14 +353,15 @@ export const accessories = [
     Diskovod_DVD: "Bor",
     KomplektdaKontroller: "mavjud 1 dona",
   },
+  // 5
   {
-    img: "https://olcha.uz/image/220x220/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
-    title: "qolda buglash mashinasi",
-    price: 350000,
-    description: "playStation",
+    img: "https://olcha.uz/image/220x220/products/GylujJp47FpGXQO7JatkA6IuPq8gpr6L2xySArBzbGshPwUVqM6eC1vC8do7.jpg",
+    title: "Samsung Galaxy M33 5g (India) 6/128GB Jigarrang",
+    price: 2990000,
+    description: "Telefon",
     guarantee: "1 oy",
     allImages: [
-      "https://olcha.uz/image/220x220/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
+      "https://olcha.uz/image/220x220/products/GylujJp47FpGXQO7JatkA6IuPq8gpr6L2xySArBzbGshPwUVqM6eC1vC8do7.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
@@ -363,14 +373,95 @@ export const accessories = [
     Diskovod_DVD: "Bor",
     KomplektdaKontroller: "mavjud 1 dona",
   },
+  // 6
   {
-    img: "https://olcha.uz/image/220x220/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
-    title: "qolda buglash mashinasi",
-    price: 350000,
-    description: "playStation",
+    img: "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-06-10/XosiXtOFIjqsIWOvUUBSz7m589wZ6FrIhOzsrBh6hrwKp57eiwjItcaVZ4FB.jpg",
+    title: "Konditsioner Artel ART -12HS Shah inventer",
+    price: 5200000,
+    description: "Konditsioner",
     guarantee: "1 oy",
     allImages: [
-      "https://olcha.uz/image/220x220/products/7aJtfBC8lTOhxrMBveKfISmlRS6Fzy4e8w3InbAvt5CuTqSKJelVRZ1pEJ3r.jpg",
+      "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-06-10/XosiXtOFIjqsIWOvUUBSz7m589wZ6FrIhOzsrBh6hrwKp57eiwjItcaVZ4FB.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "Mavjud, 1000 GB",
+    ProtsessorChastotasi: "3.50 GGts",
+    OperativHotira: "16384 Mb, GDDR6",
+    Diskovod_DVD: "Bor",
+    KomplektdaKontroller: "mavjud 1 dona",
+  },
+  // 7
+  {
+    img: "https://olcha.uz/image/220x220/products/2021-03-20/konvektor-xiaomi-mi-smart-space-heater-s-krdnq03zm-22605-0.jpeg",
+    title: "Konvektor Xiaomi Mi Smart  Space Heater S (KRDNQO3ZM)",
+    price: 1290000,
+    description: "Konvektor",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-06-10/XosiXtOFIjqsIWOvUUBSz7m589wZ6FrIhOzsrBh6hrwKp57eiwjItcaVZ4FB.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "Mavjud, 1000 GB",
+    ProtsessorChastotasi: "3.50 GGts",
+    OperativHotira: "16384 Mb, GDDR6",
+    Diskovod_DVD: "Bor",
+    KomplektdaKontroller: "mavjud 1 dona",
+  },
+  // 8
+  {
+    img: "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-05-14/8YuqyrQWCTq0EVDQZxjIzeIJuQ8VHXS4sQUJXtGZH7TnpL8JDIaTDgu5AOIO.jpg",
+    title: "Stol Ventilyatori TF1501",
+    price: 173000,
+    description: "Konvektor",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-05-14/8YuqyrQWCTq0EVDQZxjIzeIJuQ8VHXS4sQUJXtGZH7TnpL8JDIaTDgu5AOIO.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "Mavjud, 1000 GB",
+    ProtsessorChastotasi: "3.50 GGts",
+    OperativHotira: "16384 Mb, GDDR6",
+    Diskovod_DVD: "Bor",
+    KomplektdaKontroller: "mavjud 1 dona",
+  },
+  // 9
+  {
+    img: "https://olcha.uz/image/220x220/products/2018-04-23/pylesos-artel-vcc0220-grey-2911-0.jpg",
+    title: "Changyutgich Artel VCC0200, Grey",
+    price: 1360000,
+    description: "Changyutgich",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/2018-04-23/pylesos-artel-vcc0220-grey-2911-0.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "Mavjud, 1000 GB",
+    ProtsessorChastotasi: "3.50 GGts",
+    OperativHotira: "16384 Mb, GDDR6",
+    Diskovod_DVD: "Bor",
+    KomplektdaKontroller: "mavjud 1 dona",
+  },
+  // 10
+  {
+    img: "https://olcha.uz/image/220x220/products/supplier/stores/1/2024-01-22/mt1trf2VQHC0pb0H2Yr7uqfyupkdrq4OXg4FEwR5cDUYP5tjFHhGJlzJDvfx.jpg",
+    title: "Redmi note 13 Pro Black 8/256GB 4G",
+    price: 3301000,
+    description: "Redmi note 13Pro Black",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/supplier/stores/1/2024-01-22/mt1trf2VQHC0pb0H2Yr7uqfyupkdrq4OXg4FEwR5cDUYP5tjFHhGJlzJDvfx.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
@@ -393,9 +484,9 @@ export const accessories = [
 
 export const washingMachines = [
   {
-    img: "https://olcha.uz/image/220x220/products/2020-08-14/stiralnaya-mashina-lg-ai-dd-f2t9gw9p-85-kg-15320-0.jpeg",
-    title: "Kir mashinasi",
-    price: 8500000,
+    img: "https://olcha.uz/image/220x220/products/2022-10-04/stiralnaya-mashina-poluavtomat-artel-tg90p-9kg-nature-02-132723-0.jpeg",
+    title: "Yarim Kir Yuvish Mashinasi",
+    price: 1914000,
     description: "Kir yuvish mashinasi",
     guarantee: "1 oy",
     allImages: [
@@ -412,13 +503,13 @@ export const washingMachines = [
     KomplektdaKontroller: "",
   },
   {
-    img: "https://olcha.uz/image/220x220/products/2020-08-14/stiralnaya-mashina-lg-ai-dd-f2t9gw9p-85-kg-15320-0.jpeg",
-    title: "Kir mashinasi",
-    price: 8500000,
+    img: "https://olcha.uz/image/220x220/products/2020-08-14/stiralnaya-mashina-lg-steam-f2j3ns0w-6-kg-15318-0.jpeg",
+    title: "Kir Yuvish mashinasi LG F2J3NSOW",
+    price: 4875000,
     description: "Kir yuvish mashinasi",
     guarantee: "1 oy",
     allImages: [
-      "https://olcha.uz/image/220x220/products/2020-08-14/stiralnaya-mashina-lg-ai-dd-f2t9gw9p-85-kg-15320-0.jpeg",
+      "https://olcha.uz/image/220x220/products/2020-08-14/stiralnaya-mashina-lg-steam-f2j3ns0w-6-kg-15318-0.jpeg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
@@ -432,7 +523,7 @@ export const washingMachines = [
   },
   {
     img: "https://olcha.uz/image/220x220/products/2020-08-14/stiralnaya-mashina-lg-ai-dd-f2t9gw9p-85-kg-15320-0.jpeg",
-    title: "Kir mashinasi",
+    title: "Kir Yuvish Mashinasi LG AI DDF2T9GW9P(8.5KG) ",
     price: 8500000,
     description: "Kir yuvish mashinasi",
     guarantee: "1 oy",
@@ -451,13 +542,194 @@ export const washingMachines = [
   },
 
   {
-    img: "https://olcha.uz/image/220x220/products/2020-08-14/stiralnaya-mashina-lg-ai-dd-f2t9gw9p-85-kg-15320-0.jpeg",
-    title: "Kir mashinasi",
-    price: 8500000,
+    img: "https://olcha.uz/image/220x220/products/1q4h3dCCkBmA2SZTgTGPgAuN6bqkjGInTbWOImfckEuBU6cmaH47rU1a7QvN.jpg",
+    title: "Kir yuvish mashinasi Midea MF100W60/T-C(6",
+    price: 3533000,
     description: "Kir yuvish mashinasi",
     guarantee: "1 oy",
     allImages: [
-      "https://olcha.uz/image/220x220/products/2020-08-14/stiralnaya-mashina-lg-ai-dd-f2t9gw9p-85-kg-15320-0.jpeg",
+      "https://olcha.uz/image/220x220/products/1q4h3dCCkBmA2SZTgTGPgAuN6bqkjGInTbWOImfckEuBU6cmaH47rU1a7QvN.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
+  },
+  // {
+  //   img: "https://olcha.uz/image/220x220/products/Bn7hXpFKCtd6dahQKL5nE1hzbQcwbyTTyC2ztVFYCpnbDlGN8zLa4sW6gIpn.jpg",
+  //   title: "Kir yuvish Mashinasi yarim avtomatik Shivaki TT80P",
+  //   price: 1958000,
+  //   description: "Kir yuvish mashinasi",
+  //   guarantee: "1 oy",
+  //   allImages: [
+  //     "https://olcha.uz/image/220x220/products/Bn7hXpFKCtd6dahQKL5nE1hzbQcwbyTTyC2ztVFYCpnbDlGN8zLa4sW6gIpn.jpg",
+  //     "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+  //     "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+  //     "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+  //   ],
+  //   QollabQuvvatlash: "Mavjud",
+  //   QattiqDisk: "",
+  //   ProtsessorChastotasi: "",
+  //   OperativHotira: "",
+  //   Diskovod_DVD: "",
+  //   KomplektdaKontroller: "",
+  // },
+].map(
+  (item, index) =>
+    item && {
+      ...item,
+      id: index,
+      discount: index % 2 ? 15 : 0,
+    }
+);
+
+export const households = [
+  {
+    img: "https://olcha.uz/image/220x220/products/mHRIZcqs8rk4HDPM6J7i6BCoE0ai7U8j6GMCb4Rqs1L7oSAdy4RXCkxAE1ZZ.jpg",
+    title: "Konditsioner Avalon AVL-12BE",
+    price: 7296000,
+    description: "Konditsioner",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/mHRIZcqs8rk4HDPM6J7i6BCoE0ai7U8j6GMCb4Rqs1L7oSAdy4RXCkxAE1ZZ.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
+  },
+  {
+    img: "https://cdn.olcha.uz/image/220x220/products/bHpe7qKVj8DyNjnhlWhiyYJyFKbTbvLYiXET0efvCp75Ku3hh9UZ83tuXQzP.",
+    title: "To'g'ri Tikuv Mashinasi Shunfa S310",
+    price: 4014000,
+    description: "Tikuv mashinasi",
+    guarantee: "1 oy",
+    allImages: [
+      "https://cdn.olcha.uz/image/220x220/products/bHpe7qKVj8DyNjnhlWhiyYJyFKbTbvLYiXET0efvCp75Ku3hh9UZ83tuXQzP.",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
+  },
+  {
+    img: "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-05-07/x3yZK9Zsy8SJaITQQaht6q8WnggesujsET4BTJrtbwme75kbTTGLGy2qCPEP.JPG",
+    title: "Konditsioner TCL T-Pro 12 inverter T2",
+    price: 4499000,
+    description: "Konditsioner",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-05-07/x3yZK9Zsy8SJaITQQaht6q8WnggesujsET4BTJrtbwme75kbTTGLGy2qCPEP.JPG",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
+  },
+  {
+    img: "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-09-20/6HC2A9vGph2v6AlTOsaYGJzFCZN2BNApdhojDGLO1LPZvg4lGby8r7PBoePO.jpg",
+    title: "Sanoat Tikuv Mashinasi Jack JK-F4H-7",
+    price: 5760000,
+    description: "Tikuv Mashinasi",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-09-20/6HC2A9vGph2v6AlTOsaYGJzFCZN2BNApdhojDGLO1LPZvg4lGby8r7PBoePO.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
+  },
+  {
+    img: "https://olcha.uz/image/220x220/products/2022-10-04/stiralnaya-mashina-poluavtomat-artel-tg90p-9kg-nature-02-132723-0.jpeg",
+    title: "Yarim Avtomatik kir yuvish mashinasi artel -TG90p 9kg",
+    price: 1914000,
+    description: "Kir mashinai",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/2022-10-04/stiralnaya-mashina-poluavtomat-artel-tg90p-9kg-nature-02-132723-0.jpeg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
+  },
+  {
+    img: "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-05-30/Vr7z6BHDAf3iRLBFDoWJWs9zxDvvUVyEUs6owbGwLXtsgZaQqw1b4kKdL3R7.jpg",
+    title: "Konditsioner Artel Lceberg 12HDG Invertor",
+    price: 4850000,
+    description: "Konditsioner",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/supplier/stores/1/2023-05-30/Vr7z6BHDAf3iRLBFDoWJWs9zxDvvUVyEUs6owbGwLXtsgZaQqw1b4kKdL3R7.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
+  },
+  {
+    img: "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-05-28/3Tlv6AnFqlJRrdi2KyiEvCnBPfS1063qnNaKYvbiTzVaFQISI6TGapRSJETZ.JPG",
+    title: "Konditsioner Shivaki Elegent-12 Inverter",
+    price: 4930000,
+    description: "Konditsioner",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/cdn_1/supplier/stores/1/2024-05-28/3Tlv6AnFqlJRrdi2KyiEvCnBPfS1063qnNaKYvbiTzVaFQISI6TGapRSJETZ.JPG",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
+      "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
+    ],
+    QollabQuvvatlash: "Mavjud",
+    QattiqDisk: "",
+    ProtsessorChastotasi: "",
+    OperativHotira: "",
+    Diskovod_DVD: "",
+    KomplektdaKontroller: "",
+  },
+  {
+    img: "https://olcha.uz/image/220x220/products/2020-08-14/stiralnaya-mashina-lg-steam-f2j3ns0w-6-kg-15318-0.jpeg",
+    title: "Kir yuvish Mashinasi LG Steam F2J3NSOW(6 kg)",
+    price: 4875000,
+    description: "kir yuvish mashinasi",
+    guarantee: "1 oy",
+    allImages: [
+      "https://olcha.uz/image/220x220/products/2020-08-14/stiralnaya-mashina-lg-steam-f2j3ns0w-6-kg-15318-0.jpeg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/xPsiIrVxdNrpQanuUB30hVHafmgjJQML7AT3oNrfO4CNy5OA4tTji0CTaGZE.jpg",
       "https://olcha.uz/image/70x70/products/supplier/stores/1/2023-11-27/zKauPmivaalBl51sTGZ4ZXMS4D7u96Xk9BPbdjr5ObpbDixrWmyRMGLivL6t.jpg",
