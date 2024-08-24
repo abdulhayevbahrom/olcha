@@ -21,18 +21,18 @@ function HeaderTop() {
         <div className="header_lang">
           <button
             onClick={() => setLang("uz")}
-            className={lang === "uz" && "activeLang"}
+            className={lang === "uz" ? "activeLang" : ""}
           >
             UZ
           </button>
           <button
-            className={lang === "ru" && "activeLang"}
+            className={lang === "ru" ? "activeLang" : ""}
             onClick={() => setLang("ru")}
           >
             RU
           </button>
           <button
-            className={lang === "eng" && "activeLang"}
+            className={lang === "eng" ? "activeLang" : ""}
             onClick={() => setLang("eng")}
           >
             EN

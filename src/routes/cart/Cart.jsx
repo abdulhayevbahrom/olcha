@@ -4,10 +4,20 @@ import { Link } from "react-router-dom";
 import { FaMinus, FaPlus } from "react-icons/fa";
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
+import { useSelector, useDispatch } from "react-redux";
+import { increment, decrement, removeCartItem } from "../../context/cartSlice";
 
 const Cart = () => {
+  const cart = useSelector((store) => store.cart);
+  const dispatch = useDispatch();
+
+  const totalPrice = cart.reduce((a, b) => a + b.price * b.quantity, 0);
+  const totalDiscount = cart.reduce(
+    (a, b) => a + ((b.price * 10) / 100) * b.quantity,
+    0
+  );
   const [phone, setPhone] = useState("");
-  let cart = [2];
+
   return (
     <div className="cart">
       {cart.length ? (
@@ -18,60 +28,38 @@ const Cart = () => {
                 Savatchada {cart.length} ta mahsulot bor
               </h1>
               <div className="section_list">
-                <div className="section_list_item">
-                  <img
-                    src="https://olcha.uz/image/original/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg"
-                    alt=""
-                  />
-                  <div className="section_item_info">
-                    <Link to={"/"}>Honor X7b Emerald Green 8/128 GB</Link>
-                    <p>vendor code</p>
-                    <div className="section_item_actions">
-                      <button>Sevimlilarga qo'shish</button>
-                      <button>o'chirish</button>
+                {cart?.map((item, index) => (
+                  <div key={index} className="section_list_item">
+                    <img src={item?.img} alt={item.title} title={item.title} />
+                    <div className="section_item_info">
+                      <Link to={"/"}>{item.title}</Link>
+                      <p>vendor code</p>
+                      <div className="section_item_actions">
+                        <button>Sevimlilarga qo'shish</button>
+                        <button
+                          onClick={() => dispatch(removeCartItem(item.id))}
+                        >
+                          o'chirish
+                        </button>
+                      </div>
+                    </div>
+                    <div className="section_item_count">
+                      <button disabled={item.quantity === 1}>
+                        <FaMinus onClick={() => dispatch(decrement(item.id))} />
+                      </button>
+                      <p>{item.quantity}</p>
+                      <button>
+                        <FaPlus onClick={() => dispatch(increment(item.id))} />
+                      </button>
+                    </div>
+                    <div className="section_item_price">
+                      <p>{item?.price * item?.quantity} so'm</p>
+                      <s>
+                        {Math.round(item.price + (item.price * 10) / 100)} so'm
+                      </s>
                     </div>
                   </div>
-                  <div className="section_item_count">
-                    <button>
-                      <FaMinus />
-                    </button>
-                    <p>1</p>
-                    <button>
-                      <FaPlus />
-                    </button>
-                  </div>
-                  <div className="section_item_price">
-                    <p>12345432 so'm</p>
-                    <s>12345432 so'm</s>
-                  </div>
-                </div>
-                <div className="section_list_item">
-                  <img
-                    src="https://olcha.uz/image/original/products/supplier/stores/1/2023-11-27/MvJ7NTTMbUfAGFz5Np1RbCm1vZnhpOGKCHSvt8pjTlHTG27cmd8ZXv2ANRqU.jpg"
-                    alt=""
-                  />
-                  <div className="section_item_info">
-                    <Link to={"/"}>Honor X7b Emerald Green 8/128 GB</Link>
-                    <p>vendor code</p>
-                    <div className="section_item_actions">
-                      <button>Sevimlilarga qo'shish</button>
-                      <button>o'chirish</button>
-                    </div>
-                  </div>
-                  <div className="section_item_count">
-                    <button>
-                      <FaMinus />
-                    </button>
-                    <p>1</p>
-                    <button>
-                      <FaPlus />
-                    </button>
-                  </div>
-                  <div className="section_item_price">
-                    <p>12345432 so'm</p>
-                    <s>12345432 so'm</s>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
             <div className="cart_form">
@@ -95,9 +83,9 @@ const Cart = () => {
           <div className="cart_wrapper_right">
             <div className="cart_wrapper_right_price_head">
               <h2>Jami</h2>
-              <h2>999990s so'm</h2>
+              <h2>{totalPrice} so'm</h2>
             </div>
-            <span className="discount">Tejovingiz: 12324232 so'm</span>
+            <span className="discount">Tejovingiz: {totalDiscount} so'm</span>
             <form className="promoForm">
               <input type="text" placeholder="promokodni kirgizing" />
               <button>Kiritish</button>

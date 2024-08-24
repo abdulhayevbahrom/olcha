@@ -18,11 +18,7 @@ import Popular from "../../components/popular/Popular";
 import Footer from "../../components/footer/Footer";
 import Tittle_form from "../../components/tittleForm/Tittle_form";
 
-
-
 const Home = () => {
-  console.log(households);
-
   return (
     <div className="home">
       <Banner />
@@ -34,8 +30,8 @@ const Home = () => {
       <Twice_Banner />
       <Popular productsData={households} />
       <Products productsData={washingMachines} extraImg={washing} />
-      <Tittle_form/>
-      <Footer/>
+      <Tittle_form />
+      <Footer />
     </div>
   );
 };

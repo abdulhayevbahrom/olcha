@@ -9,8 +9,10 @@ import { IoStatsChart } from "react-icons/io5";
 import { LuShoppingCart, LuUser2 } from "react-icons/lu";
 import { useTypewriter } from "react-simple-typewriter";
 import { headerData } from "../../data/headerData";
+import { useSelector } from "react-redux";
 
 function Header() {
+  const cartData = useSelector((store) => store.cart);
   const [hdr_state, setHdrState] = useState(false);
   const [catalog, setCatalog] = useState(false);
 
@@ -48,7 +50,7 @@ function Header() {
             <span>Sevimlilar</span>
           </Link>
           <Link to={"/cart"}>
-            <p>0</p>
+            <p>{cartData?.length}</p>
             <LuShoppingCart />
             <span>Savatcha</span>
           </Link>
