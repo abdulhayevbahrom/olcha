@@ -134,7 +134,7 @@ header .headerLogo {
   height: 30px;
 }
 
-header button.catalog {
+header .catalogBtn {
   padding: 10px 27px;
   font-size: 18px;
   border: 2px solid #111;
@@ -145,6 +145,12 @@ header button.catalog {
   justify-content: center;
   gap: 15px;
   margin-left: 10px;
+}
+
+header .catalogBtn:hover {
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  cursor: pointer;
 }
 
 header .header_searchbar {
@@ -217,4 +223,74 @@ header .header_actions > a > p {
   display: grid;
   place-items: center;
   border-radius: 50%;
+}
+
+
+.catalog_wrapper{
+  width: 100%;
+  height: calc(100vh - 170px);
+  background-color: #eef;
+  position: absolute;
+  z-index: 4;
+}
+
+.catalog_sidebar{
+  width: 350px;
+  height: 100%;
+  padding: 10px 0px 15px 15px;
+  overflow: auto;
+  border-radius: 1px solid #ddd;
+}
+
+.catalog_sidebar .catalog_sidebar_item{
+  width: 100%;
+  height: 44px;
+  border-radius: 12px;
+  padding: 9px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+
+.catalog_sidebar .catalog_sidebar_item .catalog_sidebar_item_title{
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.catalog_sidebar .catalog_sidebar_item:hover{
+  background-color: #fef3d6;
+}
+
+.extraLinks {
+  width: calc(100% - 350px);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 350px;
+  padding: 20px;
+  display: none;
+}
+
+.extraLinks > h2{
+  margin-bottom: 20px;
+}
+
+.catalog_sidebar .catalog_sidebar_item:hover .extraLinks {
+  display: block;
+}
+
+.extraLinks .extra_wrapper{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 190px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.extraLinks .extra_wrapper .extra_item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

@@ -1,7 +1,10 @@
 import React from 'react'
 import "./Instalment.css"
+import Products from '../products/Products';
 
-function Instalment() {
+function Instalment({productsData}) {
+    console.log(productsData);
+    
     return (
         <div className='instalment'>
             <div className="header">
@@ -34,7 +37,7 @@ function Instalment() {
 
                 </div>
                 <div className="left">
-                    
+                 <Products  productsData={productsData}/>
                 </div>
             </div>
         </div>
