@@ -1,0 +1,46 @@
+.compare {
+  width: 100%;
+  height: 78.2vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2%;
+}
+
+.compare_wrapper {
+  flex: 1;
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.wrapper_childe {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapper_childe img {
+  width: 100px;
+}
+
+.wrapper_childe button {
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 0, 39);
+  background: rgb(196, 0, 39);
+  color: #fff;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.wrapper_childe button:hover {
+  border: 1px solid rgb(196, 0, 39);
+  background: #fff;
+  color: rgb(196, 0, 39);
+}

@@ -5,8 +5,11 @@ import { IoStatsChart } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { IoIosShareAlt } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { addToCart } from "../../context/cartSlice";
+import { useDispatch } from "react-redux";
+
 const Popup = ({ setPopup, data }) => {
-  console.log(data);
+  const dispatch = useDispatch();
 
   return (
     <div className="popup">
@@ -47,7 +50,13 @@ const Popup = ({ setPopup, data }) => {
               <button>16/256 gb</button>
             </div>
 
-            <Link to={"/"} className="Maxsulot">Mahsulotga o'tish</Link>
+            <button onClick={() => dispatch(addToCart(data))}>
+              Savatga qo'shish
+            </button>
+
+            <Link to={`/singlepage/${data.id}`} className="Maxsulot">
+              Mahsulotga o'tish
+            </Link>
           </div>
         </div>
       </div>

@@ -48,7 +48,7 @@ function Footer() {
                 To‘lov va yetkazib berish</span>
                 <span>Bonus va aksiyalar</span>
                 <span>Mahsulotlarni Olcha.uz da <br /> sotmoqchi bo’lgan sotuvchilar <br /> uchun oferta.</span>
-            </div>
+            </div> 
             <div className="last">
                 <div className="last_contain">
                     <div className="div"><img src="https://olcha.uz/_nuxt/uzumbank.BHyRM-1y.svg" alt="" /></div>
@@ -66,16 +66,16 @@ function Footer() {
             <div className="title">
                 <p>2017-2024. 000 "Olcha store"</p>
                 <p>Omaviy oferta</p>
-                <p>Maxfiylik siyosati</p>
+                <p>Maxfiylik siyosati</p> 
             </div>
             <div className="svg_container">
                 <FaFacebook/>
                 <IoLogoInstagram />
-                <FaTelegramPlane />
+                <FaTelegramPlane /> 
             </div>
-        </div>
+        </div>   
     </div>
   )
-}
-
+}   
+    
 export default Footer

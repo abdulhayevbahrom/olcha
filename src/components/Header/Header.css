@@ -124,6 +124,9 @@ header {
   align-items: center;
   padding: 28px 24px 20px;
   gap: 24px;
+  top: 0;
+  transition: 1s;
+  z-index: 10;
 }
 
 header .headerLogo {

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useEffect, useState } from "react";
 import HeaderTop from "./HeaderTop";
 import "./Header.css";
 import headerLogo from "../../assets/headerLogo.png";
@@ -8,22 +8,25 @@ import { Link } from "react-router-dom";
 import { IoStatsChart } from "react-icons/io5";
 import { LuShoppingCart, LuUser2 } from "react-icons/lu";
 import { useTypewriter } from "react-simple-typewriter";
-import { headerData } from "../../data/headerData"; 
-
-
+import { headerData } from "../../data/headerData";
+import { useSelector } from "react-redux";
 
 function Header() {
+  const cartData = useSelector((store) => store.cart);
+  const [hdr_state, setHdrState] = useState(false);
+  const [catalog, setCatalog] = useState(false);
+
   const [text] = useTypewriter({
     words: ["Muzlatgich", "Televizor", "Telefon", "Kompyuter", "Sichqoncha"],
     loop: 0,
   });
 
-  const [catalog, setCatalog] = useState(false);
+  useEffect(() => setHdrState(window.pageYOffset >= 56), [window.pageYOffset]);
 
   return (
     <div className="header">
       <HeaderTop />
-      <header>
+      <header style={{ position: hdr_state ? "fixed" : "static" }}>
         <Link to={"/"}>
           <img src={headerLogo} alt="header logo" className="headerLogo" />
         </Link>
@@ -47,7 +50,7 @@ function Header() {
             <span>Sevimlilar</span>
           </Link>
           <Link to={"/cart"}>
-            <p>0</p>
+            <p>{cartData?.length}</p>
             <LuShoppingCart />
             <span>Savatcha</span>
           </Link>
@@ -64,7 +67,8 @@ function Header() {
             {headerData.map((item, index) => (
               <div key={index} className="catalog_sidebar_item">
                 <div className="catalog_sidebar_item_title">
-                  <img src={item.icon} alt="" /><span>{item.title}</span>
+                  <img src={item.icon} alt="" />
+                  <span>{item.title}</span>
                 </div>
                 <FaChevronRight />
 
