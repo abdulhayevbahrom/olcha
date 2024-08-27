@@ -5,18 +5,44 @@ import { IoStatsChart } from "react-icons/io5";
 import { LuShoppingCart } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import Popup from "../popup/Popup";
+import { useDispatch, useSelector } from "react-redux";
+import { addToCompare, removeCompareItem } from "../../context/compareSlice";
+import { enqueueSnackbar } from "notistack";
 
 function Products({ productsData, extraImg }) {
+  const dispatch = useDispatch();
+  const compareData = useSelector((store) => store.compare);
   const [popup, setPopup] = useState(false);
+
+  // add to comapre
+  const addToCompareProduct = (item) => {
+    let res = compareData.some((i) => i.id === item.id);
+    if (!res) {
+      dispatch(addToCompare(item));
+      enqueueSnackbar("Added to compare", {
+        variant: "success",
+      });
+    } else {
+      dispatch(removeCompareItem(item.id));
+    }
+  };
+
   return (
     <div className="products">
       {popup && <Popup setPopup={setPopup} data={popup} />}
-      {productsData.map((item, index) => (
+      {productsData?.map((item, index) => (
         <div className="productItem" key={index}>
           {item.discount > 0 && <p className="discount">{item.discount} %</p>}
           <div className="product_action">
             <FaRegHeart />
-            <IoStatsChart />
+            <IoStatsChart
+              style={{
+                color: compareData.some((i) => i.id === item.id)
+                  ? "#c90606"
+                  : "black",
+              }}
+              onClick={() => addToCompareProduct(item)}
+            />
           </div>
           <Link to={"/singlepage/" + item.id}>
             <img src={item.img} alt={item.title} title={item.title} />

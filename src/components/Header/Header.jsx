@@ -13,6 +13,7 @@ import { useSelector } from "react-redux";
 
 function Header() {
   const cartData = useSelector((store) => store.cart);
+  const compareData = useSelector((store) => store.compare);
   const [hdr_state, setHdrState] = useState(false);
   const [catalog, setCatalog] = useState(false);
 
@@ -42,6 +43,7 @@ function Header() {
         </div>
         <div className="header_actions">
           <Link to={"/compare"}>
+            <p>{compareData.length}</p>
             <IoStatsChart />
             <span>Taqqoslash</span>
           </Link>

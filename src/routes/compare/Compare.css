@@ -1,15 +1,31 @@
 .compare {
   width: 100%;
-  height: 78.2vh;
   display: flex;
   flex-direction: column;
-  padding: 0 2%;
+  padding: 0 24px;
+  min-height: 100vh;
+}
+
+.compareActions {
+  padding: 5px 0;
+  margin: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.compareActions > button {
+  color: dodgerblue;
+  display: flex;
+  align-self: start;
+  gap: 6px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
 }
 
 .compare_wrapper {
   flex: 1;
   display: flex;
-
   justify-content: center;
   text-align: center;
   gap: 20px;
@@ -36,7 +52,7 @@
   background: rgb(196, 0, 39);
   color: #fff;
   font-size: 18px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .wrapper_childe button:hover {
