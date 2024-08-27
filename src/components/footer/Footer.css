@@ -95,12 +95,11 @@
     gap: 12px;
 }
 
+
 .bottom_footer .first img {
     width: 102px;
     height: 30px;
 }
-
-
 
 .bottom_footer .first p{
     font-size: 46px;
@@ -116,7 +115,7 @@
 .bottom_footer .first span {
     font-size: 22px;
     font-weight: 400;
-    font-family: sans-serif; 
+    font-family: sans-serif;
 }
 
 .bottom_footer .second span {
