@@ -10,6 +10,13 @@ import { LuShoppingCart, LuUser2 } from "react-icons/lu";
 import { useTypewriter } from "react-simple-typewriter";
 import { headerData } from "../../data/headerData";
 import { useSelector } from "react-redux";
+import {
+  productsData,
+  accessories,
+  households,
+  mobilePhones,
+  washingMachines,
+} from "../../data/productsData";
 
 function Header() {
   const cartData = useSelector((store) => store.cart);
@@ -17,6 +24,7 @@ function Header() {
   const heartData = useSelector((store) => store.heart);
   const [hdr_state, setHdrState] = useState(false);
   const [catalog, setCatalog] = useState(false);
+  const [searchResult, setSearchResult] = useState([]);
 
   const [text] = useTypewriter({
     words: ["Muzlatgich", "Televizor", "Telefon", "Kompyuter", "Sichqoncha"],
@@ -24,6 +32,31 @@ function Header() {
   });
 
   useEffect(() => setHdrState(window.scrollY >= 56), [window.scrollY]);
+  let searching = (value) => {
+    if (value === "" || value === " ") return setSearchResult([]);
+    let res1 = productsData.filter((product) =>
+      product.title.trim().toLowerCase().includes(value.trim().toLowerCase())
+    );
+    let res2 = accessories.filter((product) =>
+      product.title.trim().toLowerCase().includes(value.trim().toLowerCase())
+    );
+
+    let res3 = mobilePhones.filter((product) =>
+      product.title.trim().toLowerCase().includes(value.trim().toLowerCase())
+    );
+
+    let res4 = households.filter((product) =>
+      product.title.trim().toLowerCase().includes(value.trim().toLowerCase())
+    );
+
+    let res5 = washingMachines.filter((product) =>
+      product.title.trim().toLowerCase().includes(value.trim().toLowerCase())
+    );
+
+    setSearchResult([...res1, ...res2, ...res3, ...res4, ...res5]);
+  };
+
+  useEffect(() => setHdrState(window.pageYOffset >= 56), [window.pageYOffset]);
 
   return (
     <div className="header">
@@ -37,10 +70,31 @@ function Header() {
           Katalog
         </div>
         <div className="header_searchbar">
-          <input type="text" placeholder={text} />
+          <input
+            onChange={(e) => searching(e.target.value)}
+            type="search"
+            placeholder={text}
+          />
+
           <button>
             <FiSearch />
           </button>
+
+          {searchResult.length ? (
+            <div className="search_result">
+              {searchResult?.map((link, index) => (
+                <Link
+                  key={index}
+                  onClick={() => setSearchResult([])}
+                  to={`/singlepage/${link.id}`}
+                >
+                  {link.title}
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <></>
+          )}
         </div>
         <div className="header_actions">
           <Link to={"/compare"}>
