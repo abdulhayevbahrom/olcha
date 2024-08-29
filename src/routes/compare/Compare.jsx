@@ -10,7 +10,6 @@ function Compare() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const compareData = useSelector((store) => store.compare);
-  console.log(compareData);
 
   return (
     <div className="compare">

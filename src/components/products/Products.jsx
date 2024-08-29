@@ -36,6 +36,7 @@ function Products({ productsData, extraImg }) {
 
   return (
     <div className="products">
+      {popup && <Popup setPopup={setPopup} data={popup} />}
       {productsData.map((item, index) => (
         <div className="productItem" key={index}>
           {item.discount > 0 && <p className="discount">{item.discount} %</p>}

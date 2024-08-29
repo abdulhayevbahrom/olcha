@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./DaysProduct.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";

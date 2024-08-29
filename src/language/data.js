@@ -2,12 +2,12 @@ export const LangData = {
   uz: {
     muddatliTolov: "Muddatli to'lov",
     chegirma: "Chegirma",
-    yutuqlioyin: "Yutuqli o'yinlar",
+    yutuqlioyin: "Yutuqli o'yinlar",  
   },
   eng: {
     muddatliTolov: "Term payment",
     chegirma: "Discount",
-    yutuqlioyin: "Winning games",
+    yutuqlioyin: "Winning games",             
   },
   ru: {
     muddatliTolov: "Рассрочка платежа",

@@ -13,10 +13,10 @@ import {
 import Instalment from "../../components/instalment/Instalment";
 import Avto_Jihozlar from "../../assets/AvtoJihozlar.jpg";
 import washing from "../../assets/washing.jpg";
-import Twice_Banner from "../../components/twice_Banner/Twice_Banner";
+import TwiceBanner from "../../components/twice_Banner/Twice_Banner";
 import Popular from "../../components/popular/Popular";
 import Footer from "../../components/footer/Footer";
-import Tittle_form from "../../components/tittleForm/Tittle_form";
+import TittleForm from "../../components/tittleForm/Tittle_form";
 
 const Home = () => {
   return (
@@ -27,10 +27,10 @@ const Home = () => {
       <Products productsData={productsData} extraImg={Avto_Jihozlar} />
       <Instalment productsData={mobilePhones} />
       <Products productsData={accessories} />
-      <Twice_Banner />
+      <TwiceBanner />
       <Popular productsData={households} />
       <Products productsData={washingMachines} extraImg={washing} />
-      <Tittle_form />
+      <TittleForm />
       <Footer />
     </div>
   );

@@ -37,7 +37,7 @@ const Soat = ({ hours }) => {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
+  });
 
   return (
     <div>

@@ -5,6 +5,7 @@
     display: flex;
     gap: 20px;
     padding: 5px;
+    padding-left: 24px;
 }
 
 .twice img{

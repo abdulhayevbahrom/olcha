@@ -5,6 +5,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaTelegramPlane } from "react-icons/fa";
+import headerLogo from "../../assets/headerLogo.png";
 
 function Footer() {
   return (
@@ -24,7 +25,7 @@ function Footer() {
         </div>
         <div className="bottom_footer">
             <div className="first">
-                <p>olcha</p>
+                <img src={headerLogo} alt="" />
                 <span>Qo'llab-quvvatlash raqami</span>
                 <span>+998 (71) 202 202 1</span>
                 <span><CiLocationOn /> Qozitarnov, Toshkent</span>
@@ -47,7 +48,7 @@ function Footer() {
                 To‘lov va yetkazib berish</span>
                 <span>Bonus va aksiyalar</span>
                 <span>Mahsulotlarni Olcha.uz da <br /> sotmoqchi bo’lgan sotuvchilar <br /> uchun oferta.</span>
-            </div>
+            </div> 
             <div className="last">
                 <div className="last_contain">
                     <div className="div"><img src="https://olcha.uz/_nuxt/uzumbank.BHyRM-1y.svg" alt="" /></div>
@@ -65,16 +66,16 @@ function Footer() {
             <div className="title">
                 <p>2017-2024. 000 "Olcha store"</p>
                 <p>Omaviy oferta</p>
-                <p>Maxfiylik siyosati</p>
+                <p>Maxfiylik siyosati</p> 
             </div>
             <div className="svg_container">
                 <FaFacebook/>
                 <IoLogoInstagram />
-                <FaTelegramPlane />
+                <FaTelegramPlane /> 
             </div>
-        </div>
+        </div>   
     </div>
   )
-}
-
+}   
+    
 export default Footer

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Heart.css";
 import Footer from "../../components/footer/Footer";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 
 function Heart() {
   const heart = [1];

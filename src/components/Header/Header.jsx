@@ -23,7 +23,7 @@ function Header() {
     loop: 0,
   });
 
-  useEffect(() => setHdrState(window.pageYOffset >= 56), [window.pageYOffset]);
+  useEffect(() => setHdrState(window.scrollY >= 56), [window.scrollY]);
 
   return (
     <div className="header">

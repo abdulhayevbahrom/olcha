@@ -1,8 +1,8 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import "./SinglePage.css";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { productsData } from "../../data/productsData";
-import { FaRegStar } from "react-icons/fa";
+import { FaHeart, FaRegStar } from "react-icons/fa";
 import { IoStatsChart } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 import { LiaShareSolid } from "react-icons/lia";
@@ -12,13 +12,43 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import { Link } from "react-router-dom";
 import { RiShoppingBag3Line } from "react-icons/ri";
+import { addToHeart, removeFromHeart } from "../../context/heartSlice";
+import { addToCompare, removeCompareItem } from "../../context/compareSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { enqueueSnackbar } from "notistack";
+import { addToCart } from "../../context/cartSlice";
 
 function SinglePage() {
+  const navigate = useNavigate();
+  const compareData = useSelector((store) => store.compare);
+  const heart = useSelector((store) => store.heart);
   const params = useParams();
-  const item = productsData?.find((el) => el.id == params.id);
-  // const [imgs, setImgs] = useState(item.about_product[0.0]);
+  const dispatch = useDispatch();
+  const item = productsData?.find((el) => el.id === +params.id);
 
-  console.log(item);
+  const addToCompareProduct = (item) => {
+    let res = compareData.some((i) => i.id === item.id);
+    if (!res) {
+      dispatch(addToCompare(item));
+      enqueueSnackbar("Added to compare", {
+        variant: "success",
+      });
+    } else {
+      dispatch(removeCompareItem(item.id));
+    }
+  };
+
+  let addWishes = (product) => dispatch(addToHeart(product));
+
+  let shareData = () => {
+    let data = {
+      title: item.title,
+      text: item.description,
+      url: item.img,
+      images: item.allImages,
+    };
+    window.navigator.share(data);
+  };
 
   return (
     <div className="singlePage">
@@ -32,13 +62,38 @@ function SinglePage() {
           <FaRegStar /> 0 sharhlar
         </p>
         <div className="main_child">
-          <p>
-            <IoStatsChart /> Taqqoslashga qo'shish
+          <p
+            style={{
+              color: "#c90606",
+            }}
+            onClick={() => addToCompareProduct(item)}
+          >
+            <IoStatsChart
+              style={{
+                color: compareData.some((i) => i.id === item.id)
+                  ? "#c90606"
+                  : "black",
+              }}
+            />
+            {compareData.some((i) => i.id === item.id)
+              ? "Taqqoslashdan olib tashlash"
+              : "Taqqoslashga qo'shish"}
           </p>
           <p>
-            <FaRegHeart /> Saralanganlarga qo'shish
+            {heart.some((i) => i.id === item.id) ? (
+              <p onClick={() => dispatch(removeFromHeart(item.id))}>
+                <FaHeart style={{ color: "#c90606" }} />
+                Saralanganlardan olib tashlash
+              </p>
+            ) : (
+              <p onClick={() => addWishes(item)}>
+                <FaRegHeart /> Saralanganlarga qo'shish
+              </p>
+            )}
+
+            {/* <FaRegHeart /> Saralanganlarga qo'shish */}
           </p>
-          <p>
+          <p onClick={shareData}>
             <LiaShareSolid /> Ulashish
           </p>
         </div>
@@ -151,10 +206,15 @@ function SinglePage() {
               </div>
             </div>
             <div className="text-not"></div>
-            <button className="item-green">
+            <button
+              className="item-green"
+              onClick={() => dispatch(addToCart(item))}
+            >
               <RiShoppingBag3Line /> Savatchaga qo'shish
             </button>
-            <button className="item-click">Bir klikda sotib olish</button>
+            <button onClick={() => navigate("/cart")} className="item-click">
+              Bir bosishda sotib olish
+            </button>
           </div>
           <div className="olcha-widget">
             <div className="widget-title">
