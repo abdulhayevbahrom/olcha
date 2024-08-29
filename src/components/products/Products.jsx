@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Products.css";
-import { FaRegHeart } from "react-icons/fa";
+import { FaRegHeart, FaHeart } from "react-icons/fa";
 import { IoStatsChart } from "react-icons/io5";
 import { LuShoppingCart } from "react-icons/lu";
 import { Link } from "react-router-dom";
@@ -8,10 +8,12 @@ import Popup from "../popup/Popup";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCompare, removeCompareItem } from "../../context/compareSlice";
 import { enqueueSnackbar } from "notistack";
+import { addToHeart, removeFromHeart } from "../../context/heartSlice";
 
 function Products({ productsData, extraImg }) {
   const dispatch = useDispatch();
   const compareData = useSelector((store) => store.compare);
+  let heart = useSelector((store) => store.heart);
   const [popup, setPopup] = useState(false);
 
   // add to comapre
@@ -27,14 +29,26 @@ function Products({ productsData, extraImg }) {
     }
   };
 
+  // HEART
+  let addWishes = (product) => {
+    dispatch(addToHeart(product));
+  };
+
   return (
     <div className="products">
-      {popup && <Popup setPopup={setPopup} data={popup} />}
-      {productsData?.map((item, index) => (
+      {productsData.map((item, index) => (
         <div className="productItem" key={index}>
           {item.discount > 0 && <p className="discount">{item.discount} %</p>}
           <div className="product_action">
-            <FaRegHeart />
+            {heart.some((i) => i.id === item.id) ? (
+              <FaHeart
+                style={{ color: "#c90606" }}
+                onClick={() => dispatch(removeFromHeart(item.id))}
+              />
+            ) : (
+              <FaRegHeart onClick={() => addWishes(item)} />
+            )}
+
             <IoStatsChart
               style={{
                 color: compareData.some((i) => i.id === item.id)

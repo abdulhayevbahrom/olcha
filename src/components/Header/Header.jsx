@@ -14,6 +14,7 @@ import { useSelector } from "react-redux";
 function Header() {
   const cartData = useSelector((store) => store.cart);
   const compareData = useSelector((store) => store.compare);
+  const heartData = useSelector((store) => store.heart);
   const [hdr_state, setHdrState] = useState(false);
   const [catalog, setCatalog] = useState(false);
 
@@ -43,11 +44,12 @@ function Header() {
         </div>
         <div className="header_actions">
           <Link to={"/compare"}>
-            <p>{compareData.length}</p>
+            {compareData.length ? <p>{compareData.length}</p> : <></>}
             <IoStatsChart />
             <span>Taqqoslash</span>
           </Link>
           <Link to={"/heart"}>
+            {heartData.length ? <p>{heartData.length}</p> : <></>}
             <FaRegHeart />
             <span>Sevimlilar</span>
           </Link>
