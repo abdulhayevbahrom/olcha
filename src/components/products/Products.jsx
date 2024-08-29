@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Products.css";
+import "./Products~.css";
 import { FaRegHeart, FaHeart } from "react-icons/fa";
 import { IoStatsChart } from "react-icons/io5";
 import { LuShoppingCart } from "react-icons/lu";

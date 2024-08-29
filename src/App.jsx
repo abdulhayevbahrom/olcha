@@ -11,14 +11,14 @@ import SinglePage from "./routes/singlePage/SinglePage";
 function App() {
   return (
     <div className="app">
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/compare" element={<Compare />} />
+        {/* <Route path="/compare" element={<Compare />} />
         <Route path="/heart" element={<Heart />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/singlepage/:id" element={<SinglePage />} />
+        <Route path="/singlepage/:id" element={<SinglePage />} /> */}
       </Routes>
     </div>
   );

@@ -21,17 +21,17 @@ import TittleForm from "../../components/tittleForm/Tittle_form";
 const Home = () => {
   return (
     <div className="home">
-      <Banner />
+      {/* <Banner />
       <Categories />
-      <Offer />
+      <Offer /> */}
       <Products productsData={productsData} extraImg={Avto_Jihozlar} />
-      <Instalment productsData={mobilePhones} />
+      {/* <Instalment productsData={mobilePhones} />
       <Products productsData={accessories} />
       <TwiceBanner />
       <Popular productsData={households} />
       <Products productsData={washingMachines} extraImg={washing} />
       <TittleForm />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
