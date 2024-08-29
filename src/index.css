@@ -42,12 +42,3 @@ a {
   color: #fff;
   background-color: var(--main-color);
 }
-
-@media screen and (max-width: 1388px) {
-  .product-card__link {
-    width: 248px;
-    height: 444px;
-
-
-  }
-}
