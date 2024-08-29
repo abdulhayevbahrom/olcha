@@ -1,21 +1,39 @@
 import React, { useState } from "react";
 import "./Products.css";
-import { FaRegHeart } from "react-icons/fa";
+import { FaRegHeart, FaHeart } from "react-icons/fa";
 import { IoStatsChart } from "react-icons/io5";
 import { LuShoppingCart } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import Popup from "../popup/Popup";
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import { addToHart, removeFromHeart } from "../../context/heartSlice";
 
 function Products({ productsData, extraImg }) {
   const [popup, setPopup] = useState(false);
+  const dispatch = useDispatch();
+
+  let heart = useSelector((store) => store.heart);
+
+  let addWishes = (product) => {
+    dispatch(addToHart(product));
+  };
   return (
     <div className="products">
-      {popup && <Popup setPopup={setPopup} data={popup} />}
       {productsData.map((item, index) => (
         <div className="productItem" key={index}>
           {item.discount > 0 && <p className="discount">{item.discount} %</p>}
           <div className="product_action">
-            <FaRegHeart />
+            {heart.some((i) => i.id === product.id) ? (
+              <FaHeart
+                onClick={() => dispatch(removeFromHeart(product))}
+                className="heart_open"
+              />
+            ) : (
+              <FaRegHeart
+                onClick={() => addWishes(product)}
+                className="heart"
+              />
+            )}
             <IoStatsChart />
           </div>
           <Link to={"/singlepage/" + item.id}>
