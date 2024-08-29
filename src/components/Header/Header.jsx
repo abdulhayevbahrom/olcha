@@ -10,17 +10,29 @@ import { LuShoppingCart, LuUser2 } from "react-icons/lu";
 import { useTypewriter } from "react-simple-typewriter";
 import { headerData } from "../../data/headerData";
 import { useSelector } from "react-redux";
+import { productsData } from "../../data/productsData"        
+
+
 
 function Header() {
   const cartData = useSelector((store) => store.cart);
   const compareData = useSelector((store) => store.compare);
   const [hdr_state, setHdrState] = useState(false);
   const [catalog, setCatalog] = useState(false);
+  const [searchResult, setSearchResult] =useState([])
 
   const [text] = useTypewriter({
     words: ["Muzlatgich", "Televizor", "Telefon", "Kompyuter", "Sichqoncha"],
     loop: 0,
   });
+
+  let searching =(value) => {
+    if (value === "" || value === " ") return;
+    let res = productsData.filter((product) =>
+      product.title.trim().toLowerCase().includes(value.trim().toLowerCase())
+    );
+    setSearchResult(res)
+  };
 
   useEffect(() => setHdrState(window.pageYOffset >= 56), [window.pageYOffset]);
 
@@ -36,10 +48,28 @@ function Header() {
           Katalog
         </div>
         <div className="header_searchbar">
-          <input type="text" placeholder={text} />
+          <input
+          onChange={(e) => searching(e.target.value)}
+          type="search"
+          placeholder="Qidirish" />
+
           <button>
-            <FiSearch />
+          <FiSearch/>
           </button>
+
+          {searchResult.length && (
+            <div className="search_result">
+              {searchResult?.map((link, index) => (
+                <Link  
+                key={index}
+                onClick={()=>setSearchResult([])}
+                to={`/products/${link.id}`}
+                >
+                  {link.title}
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
         <div className="header_actions">
           <Link to={"/compare"}>

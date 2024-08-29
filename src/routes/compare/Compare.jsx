@@ -14,21 +14,6 @@ function Compare() {
 
   return (
     <div className="compare">
-<<<<<<< HEAD
-
-      {/* <h1>Tovarlarni solishtirish</h1>
-      <div className="compare_wrapper">
-        <div className="wrapper_childe">
-          <img src={"https://olcha.uz/_nuxt/empty-icon.DX6S2-bK.png"} alt="" />
-          <h2>Afsuski, bunday mahsulot hozirda mavjud emas.</h2>
-          <p>
-            Mahsulot nomida xatolik yoki bizda hali bunday mahsulot boʻlmasligi
-            mumkin
-          </p>
-          <button className="copare_btn">Asosiy sahifaga</button>
-        </div>
-      </div> */}
-=======
       <h1>Tovarlarni solishtirish</h1>
       {compareData.length ? (
         <>
@@ -62,7 +47,6 @@ function Compare() {
           </div>
         </div>
       )}
->>>>>>> 90172a337d6cd456574d50866c8ab207aad75f17
     </div>
   );
 }
