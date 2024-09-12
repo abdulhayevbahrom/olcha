@@ -141,7 +141,7 @@ const Cart = () => {
       ) : (
         <div className="emptyCart">
           <img src={"https://olcha.uz/_nuxt/cart.DYGF4swC.png"} alt="" />
-          <h1>Savatcha ngiz bo'sh</h1>
+          <h1>Savatchangiz bo'sh</h1>
           <p>Lekin siz uni har doim to'ldirishingiz mumkin</p>
           <Link to={"/"}>Asosiy sahifaga</Link>
         </div>

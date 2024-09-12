@@ -1,10 +1,12 @@
 import React from "react";
 import "./Heart.css";
 import Footer from "../../components/footer/Footer";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import Products from "../../components/products/Products";
+import { clearHart } from "../../context/heartSlice";
 
 function Heart() {
-  const heart = [1];
+  const dispatch = useDispatch();
 
   let heartStore = useSelector((store) => store.heart);
 
@@ -12,9 +14,9 @@ function Heart() {
 
   return (
     <>
-      {heart.length ? (
+      {heartStore.length ? (
         <div className="openHeart">
-          <h2>openHeart</h2>
+          <Products productsData={heartStore} />
           <Footer />
         </div>
       ) : (

@@ -46,7 +46,7 @@
 
 .single-main {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -232,6 +232,13 @@
   border-radius: 10px;
 }
 
+.single-banner {
+  width: 992.4px;
+  height: 100%;
+  display: flex;
+
+}
+
 .xbox {
   width: 100%;
   height: 10px;
@@ -241,6 +248,7 @@
 }
 
 .olcha-widget button {
+  width: 100%;
   padding: 17px 125px;
   background: rgb(196, 0, 39);
   color: #fff;
@@ -250,4 +258,80 @@
   cursor: pointer;
   font-size: 15px;
   font-family: sans-serif;
+}
+
+@media screen and (max-width: 1414px) {
+  .single_left img {
+    width: 420px;
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 1376px) {
+  .single_left img {
+    width: 380px;
+    height: 380px;
+  }
+
+}
+
+@media screen and (max-width: 1328px) {
+  .single_left img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .product-pricing {
+    width: 367.6px;
+    height: 861.6px;
+  }
+
+  .product-info {
+    width: 476.2px;
+    height: 639px;
+  }
+}
+
+
+@media screen and (max-width: 1252px) {
+  .single-banner {
+    flex-direction: column;
+  }
+
+  .product-pricing {
+    width: 1087.6px;
+    height: 871.6px;
+  }
+
+  .single_left img {
+    width: 450px;
+    height: 450px;
+  }
+
+  .product-widger {
+    width: 100%;
+
+  }
+}
+
+@media screen and (max-width: 1031px) {
+  .singlePage {
+    align-items: center;
+
+  }
+
+  .single-banner {
+    align-items: center;
+  }
+
+  .single-main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-pricing {
+    width: 800px;
+  }
+
 }

@@ -16,7 +16,7 @@ export const heartSlice = createSlice({
       localStorage.setItem("wishes", JSON.stringify(result));
       return result;
     },
-    clearHart: () => {},
+    clearHart: (result, action) => (result = []),
   },
 });
 

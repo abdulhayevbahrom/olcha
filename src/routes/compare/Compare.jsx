@@ -16,6 +16,7 @@ function Compare() {
       <h1>Tovarlarni solishtirish</h1>
       {compareData.length ? (
         <>
+          c
           <div className="compareActions">
             <button onClick={() => navigate("/")}>
               <FaPlus /> Tovarlarni qo'shish

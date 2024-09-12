@@ -60,6 +60,7 @@
   background-color: #fff;
   padding: 24px;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
   font-family: sans-serif;

@@ -3,6 +3,7 @@ import Banner from "../../components/banner/Banner";
 import Categories from "../../components/categories/Categories";
 import Offer from "../../components/offer/Offer";
 import Products from "../../components/products/Products";
+import "./Home.css";
 import {
   productsData,
   accessories,
